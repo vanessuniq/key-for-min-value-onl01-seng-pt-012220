@@ -6,4 +6,5 @@ def key_for_min_value(name_hash)
   name_hash.each do |k, v| 
     value_array << v 
     k for value_array.sort.first 
+  end 
 end 
